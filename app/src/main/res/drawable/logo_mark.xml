@@ -1,0 +1,26 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layer-list xmlns:android="http://schemas.android.com/apk/res/android">
+    <item>
+        <vector
+            android:width="108dp"
+            android:height="108dp"
+            android:viewportWidth="108"
+            android:viewportHeight="108"
+            xmlns:aapt="http://schemas.android.com/aapt">
+            <path android:pathData="M28,4 H80 A24,24 0 0 1 104,28 V80 A24,24 0 0 1 80,104 H28 A24,24 0 0 1 4,80 V28 A24,24 0 0 1 28,4z">
+                <aapt:attr name="android:fillColor">
+                    <gradient
+                        android:type="linear"
+                        android:startX="4"
+                        android:startY="4"
+                        android:endX="104"
+                        android:endY="104"
+                        android:startColor="#FF0A1433"
+                        android:centerColor="#FF3D5AFE"
+                        android:endColor="#FF7C4DFF" />
+                </aapt:attr>
+            </path>
+        </vector>
+    </item>
+    <item android:drawable="@drawable/ic_logo_foreground" />
+</layer-list>
