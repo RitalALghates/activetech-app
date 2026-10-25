@@ -112,7 +112,8 @@ public class ExploreActivity extends AppCompatActivity {
         }
 
         // Apply organization filter if selected and not "All"
-        if (!selectedOrganization.isEmpty() && !selectedOrganization.equals("All")) {
+        if (!selectedOrganization.isEmpty() && !selectedOrganization.equals("All")
+                && !selectedOrganization.equals("Organizations")) {
             query = query.whereEqualTo("organization", selectedOrganization);
         }
 
